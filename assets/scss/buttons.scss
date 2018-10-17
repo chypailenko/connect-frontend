@@ -1,0 +1,35 @@
+.button {
+  width: 176px;
+  height: 48px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  outline: none;
+  border: none;
+  padding: 11px 49px;
+
+  &--primary {
+    background-color: #41bbac;
+    color: #ffffff;
+  }
+  &--dander {
+    background-color: #ff3a3a;
+    color: #ffffff;
+  }
+
+  &__lg {
+    width: 320px;
+    height: 56px;
+    padding: 16px 110px;
+    letter-spacing: -0.27px;
+  }
+  &__xl {
+    width: 344px;
+    height: 48px;
+  }
+}

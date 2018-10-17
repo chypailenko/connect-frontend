@@ -1,0 +1,73 @@
+.button {
+  width: 176px;
+  height: 48px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  outline: none;
+  border: none;
+  padding: 11px 49px;
+}
+.button--primary {
+  background-color: #41bbac;
+  color: #ffffff;
+}
+.button--dander {
+  background-color: #ff3a3a;
+  color: #ffffff;
+}
+.button__lg {
+  width: 320px;
+  height: 56px;
+  padding: 16px 110px;
+  letter-spacing: -0.27px;
+}
+.button__xl {
+  width: 344px;
+  height: 48px;
+}
+
+html, body {
+  background-color: #000000;
+}
+
+.actions {
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  letter-spacing: -0.18px;
+  display: flex;
+  align-items: center;
+}
+.actions__item {
+  display: flex;
+  align-items: center;
+}
+.actions__item:not(:last-child) {
+  margin-right: 37px;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 8px;
+}
+.icon__play {
+  background: url("icon__play.52757f4e.svg") no-repeat;
+  width: 23px;
+  height: 24px;
+}
+.icon__share {
+  background: url("icon__share.c1b9830b.svg") no-repeat;
+  width: 19px;
+  height: 27px;
+}
+.icon__warning {
+  background: url("icon__waning.35d6f7a6.svg") no-repeat;
+  width: 23px;
+  height: 25px;
+}

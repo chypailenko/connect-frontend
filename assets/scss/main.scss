@@ -1,0 +1,39 @@
+html, body {
+  background-color: #000000;
+}
+
+.actions {
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  letter-spacing: -0.18px;
+  display: flex;
+  align-items: center;
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__item:not(:last-child) {
+    margin-right: 37px;
+  }
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 8px;
+  &__play {
+    background: url("/assets/images/icon__play.svg") no-repeat;
+    width: 23px;
+    height: 24px;
+  }
+  &__share {
+    background: url("/assets/images/icon__share.svg") no-repeat;
+    width: 19px;
+    height: 27px;
+  }
+  &__warning {
+    background: url("/assets/images/icon__waning.svg") no-repeat;
+    width: 23px;
+    height: 25px;
+  }
+}
