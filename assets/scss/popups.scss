@@ -1,0 +1,129 @@
+.popups__container {
+  background-color: #f0f2f2;
+  padding-top: 31px;
+}
+
+.popup {
+  width: 737px;
+  height: 414px;
+  border-radius: 10px;
+  border: 1px solid #dae0e0;
+  background-color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 29px;
+  }
+  &__title {
+    color: #000000;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.36px;
+  }
+  &__subtitle {
+    color: #000000;
+    font-family: "Ubuntu Light";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 449px;
+    text-align: center;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  &__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  &__message {
+    padding: 20px;
+    width: 580px;
+    height: 199px;
+    border-radius: 6px;
+    background-color: #f0f2f2;
+    outline: none;
+    border: none;
+    margin-bottom: 13px;
+    color: #696e6e;
+    font-family: "Ubuntu Light";
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+.input {
+  &__field {
+    padding-left: 53px;
+    height: 48px;
+    max-width: 293px;
+    width: 100%;
+    outline: none;
+    border-radius: 6px;
+    background-color: #f0f2f2;
+    border: none;
+    color: #000000;
+    font-family: "Ubuntu Light";
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+  }
+  &__wrapper {
+    position: relative;
+    max-width: 344px;
+    width: 100%;
+    &--email:before {
+      content: '';
+      background: url("/assets/images/icon__mail.svg") no-repeat;
+      width: 20px;
+      height: 16px;
+      position: absolute;
+      display: inline-block;
+      top: 17px;
+      left: 21px;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+    &--phone:before {
+      content: '';
+      background: url("/assets/images/icon__call.svg") no-repeat;
+      width: 20px;
+      height: 21px;
+      position: absolute;
+      display: inline-block;
+      top: 15px;
+      left: 21px;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+  }
+  &__wrapper:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  &__email, &__phone {
+    text-align: start;
+  }
+}
+
+
+.popup__complaint {
+  height: 551px;
+  padding-bottom: 13px;
+}
