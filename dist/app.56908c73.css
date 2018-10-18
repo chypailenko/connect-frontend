@@ -158,6 +158,20 @@ html, body {
   text-align: center;
   position: relative;
 }
+.input__mail {
+  height: 48px;
+  max-width: 344px;
+  width: 100%;
+  outline: none;
+  border-radius: 6px;
+  background-color: #f0f2f2;
+  border: none;
+  color: #000000;
+  font-family: "Ubuntu Light";
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
 .input__wrapper {
   position: relative;
   max-width: 344px;
