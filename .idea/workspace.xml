@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.cache/78/cc783b876c923c978acf9cdfc5769b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/78/cc783b876c923c978acf9cdfc5769b.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/94/63d7e6117d11da797d8d7bc7b0d3c8.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/94/63d7e6117d11da797d8d7bc7b0d3c8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/popups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/popups.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.56908c73.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.56908c73.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.56908c73.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.56908c73.js" afterDir="false" />
@@ -49,33 +50,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="676" />
+          <entry key="html" value="901" />
           <entry key="js" value="16" />
-          <entry key="scss" value="1048" />
+          <entry key="scss" value="1332" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="676" />
+          <entry key="HTML" value="901" />
           <entry key="JavaScript" value="16" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="SCSS" value="1048" />
+          <entry key="SCSS" value="1332" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56569344">
+    <splitter split-orientation="horizontal" split-proportion="0.5419708">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+                <state relative-caret-position="390">
+                  <caret line="160" column="60" selection-start-line="160" selection-start-column="60" selection-end-line="160" selection-end-column="60" />
                   <folding>
                     <element signature="n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#4213#5235#0" />
                   </folding>
                 </state>
               </provider>
@@ -97,8 +100,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/scss/buttons.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+                <state relative-caret-position="176">
+                  <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -106,8 +109,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/scss/popups.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+                <state relative-caret-position="406">
+                  <caret line="187" column="24" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#3676#4440#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -134,8 +140,8 @@
         <option value="$PROJECT_DIR$/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/assets/scss/buttons.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/popups.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -231,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1539783911288</updated>
       <workItem from="1539783912475" duration="6343000" />
-      <workItem from="1539845714912" duration="12536000" />
+      <workItem from="1539845714912" duration="18334000" />
     </task>
     <task id="LOCAL-00001" summary="added prod">
       <created>1539789648642</created>
@@ -244,7 +250,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18879000" />
+    <option name="totallyTimeSpent" value="24677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -304,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/icon__call.5e0223bb.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -321,20 +320,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/scss/buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/popups.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        <state relative-caret-position="406">
+          <caret line="187" column="24" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+          <folding>
+            <element signature="e#3676#4440#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="160" column="60" selection-start-line="160" selection-start-column="60" selection-end-line="160" selection-end-column="60" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#4213#5235#0" />
+          </folding>
         </state>
       </provider>
     </entry>

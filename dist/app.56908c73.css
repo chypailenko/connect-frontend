@@ -18,6 +18,10 @@
   background-color: #ff3a3a;
   color: #ffffff;
 }
+.button--disable {
+  background-color: #dae0e0;
+  color: #696e6e;
+}
 .button__xs {
   padding: 11px 49px;
   width: 176px;
@@ -141,6 +145,13 @@ html, body {
   font-size: 15px;
   font-weight: 300;
 }
+.popup__alarm {
+  color: #ff3a3a;
+  font-family: Ubuntu;
+  font-size: 16px;
+  letter-spacing: -0.18px;
+  margin-top: 22px;
+}
 
 .input__field {
   padding-left: 53px;
@@ -214,3 +225,95 @@ html, body {
   height: 551px;
   padding-bottom: 13px;
 }
+
+.popup__estimate {
+  width: 737px;
+  height: 720px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.checkbox__title {
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.checkbox__input {
+  display: none;
+}
+.checkbox__items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkbox__item {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f0f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.checkbox__item:not(:last-child) {
+  margin-right: 8px;
+}
+.checkbox__item:active {
+  color: #ffffff;
+  background-color: #41bbac;
+}
+
+/*
+label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  margin: 16px 23px 32px!important;
+}
+input[type=radio] {
+  display: none;
+}
+
+label:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: inherit;
+  border: 1px solid #41bbac;
+  left: -20px;
+  right: 0;
+  bottom: -17px;
+  cursor: pointer;
+
+}
+.radio label:before {
+  border-radius: 50%;
+}
+input[type=radio]:checked + label:before {
+  content: "";
+  color: #ffffff;
+  background-color: #41bbac;
+}
+input[type=checkbox] {
+  display: none;
+}
+.checkbox label:before {
+  border-radius: 50%;
+}
+input[type=checkbox]:checked + label:before {
+  content: "";
+  color: #ffffff;
+  background-color: #41bbac;
+}*/
